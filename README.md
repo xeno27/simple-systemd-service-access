@@ -9,7 +9,7 @@ Maybe this helps you in your simple projects :grinning:
 Start a Service check starte then stop and check state then Restart
 
 ```python
-    simple = SimpleSystemDService('test.service')
+    simple = SimpleSystemDServiceAccess('test.service')
     simple.StartService()
     a=simple.IsRunning()
     print(a)
